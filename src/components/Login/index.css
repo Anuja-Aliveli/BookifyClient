@@ -1,0 +1,45 @@
+.logo-image {
+  height: 70px;
+  width: 70px;
+}
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto';
+  background-size: cover;
+  background-image: linear-gradient(90deg,rgb(196, 144, 245),#f8b1c3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name-login {
+  height: 40px;
+  width: 250px;
+  background-color: transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  margin-bottom: 20px;
+  border: 2px solid white;
+  outline: none;
+}
+.name-login::placeholder {
+  color: white;
+  font-size: 15px;
+}
+.text-login {
+  color: rgb(111,25,192);
+  font-size: 25px;
+  font-weight: 500;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: hsla(0,0%,100%,.2);
+  border-radius: 10px;
+  margin-top: 0;
+}
